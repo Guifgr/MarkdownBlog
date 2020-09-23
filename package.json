@@ -1,0 +1,29 @@
+{
+  "name": "MarkdownBlog",
+  "version": "1.0.0",
+  "description": "const Learning=['git', 'js', 'node', 'markdown'];",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Guifgr/MarkdownBlog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Guifgr/MarkdownBlog/issues"
+  },
+  "homepage": "https://github.com/Guifgr/MarkdownBlog#readme",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
